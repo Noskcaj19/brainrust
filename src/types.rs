@@ -7,6 +7,5 @@ pub enum BrainCommand {
     JumpForward(Option<usize>),
     MoveLeft,
     MoveRight,
-    Noop,
     Output,
 }
